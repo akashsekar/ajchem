@@ -54,12 +54,12 @@ const Header = () => {
               <Link to="/contact">Contact</Link>
             </li>
           </ul>
-          <Link to="/contact">
+         
           <div className="start">
 
-            <div className="button">Contact Us</div>
+            <div className="button" style={{color:"#1eb2a6"}}>.</div>
           </div>
-          </Link>
+          
           <button className="toggle" onClick={() => setClick(!click)}>
             {click ? <i className="fa fa-times"> </i> : <i className="fa fa-bars"></i>}
           </button>
