@@ -4,6 +4,7 @@ import "./footer.css"
 import LOGO from "../../../assets/logo.png"
 import { Link } from "react-router-dom"
 
+
 const Footer = () => {
   return (
     <>
@@ -22,8 +23,9 @@ const Footer = () => {
       <footer>
         <div className='container padding'>
           <div className='box logo'>
+          <Link to="/">
             <img src={LOGO} alt="logo" style={{paddingBottom: 20}} />
-
+</Link>
             {/* <i className='fab fa-facebook-f icon'></i>
             <i className='fab fa-twitter icon'></i>
             <i className='fab fa-instagram icon'></i> */}
@@ -77,11 +79,11 @@ const Footer = () => {
             <ul>
               <li>
                 <i className='fa fa-map'></i>
-                203 Fake St. Mountain View, San Francisco, California, USA
+                14261, Southwest, 120th street Unit 108 111, Miami FL 33186.
               </li>
               <li>
                 <i className='fa fa-phone-alt'></i>
-                +2 392 3929 210
+                +1 754 203-6714
               </li>
               <li>
                 <i className='fa fa-paper-plane'></i>
@@ -93,7 +95,7 @@ const Footer = () => {
       </footer>
       <div className='legal'>
         <p>
-          Copyright ©2022 All rights reserved  <i className='fa fa-heart'></i> 
+          Copyright ©2023 All rights reserved 
         </p>
       </div>
     </>

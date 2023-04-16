@@ -1,5 +1,6 @@
 .aboutHome {
   height: auto;
+  padding: 10rem 0;
 }
 .aboutHome #heading {
   text-align: left;
@@ -11,10 +12,15 @@
   object-fit: cover;
 }
 .aboutHome .right {
-  padding: 80px 50px;
+  /* padding: 80px 50px; */
+  width: 100%;
+
 }
 .aboutHome .items {
   margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
 }
 .aboutHome .item {
   background-color: #fff;
@@ -68,6 +74,17 @@
   font-weight: 500;
 }
 /*----------awrapper------------*/
+
+@media screen and (max-width: 1288px) {
+
+  .aboutHome{
+    padding-top: 17rem;
+  }
+  .aboutHome .items {
+    grid-template-columns: 1fr;
+  
+  }
+}
 @media screen and (max-width: 768px) {
   .aboutHome .container {
     flex-direction: column-reverse;

@@ -16,8 +16,8 @@ const Header = () => {
       <Head />
       <header>
         <nav className="flexSB">
-          <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
-            <li>
+          <ul className={click ? "mobile-nav" : "flexSB "}>
+            <li onClick={() => setClick(false)}>
               <Link to="/">Home</Link>
             </li>
             <li>
@@ -26,10 +26,10 @@ const Header = () => {
               </div>
               {showDropdown && (
                 <ul className="dropdown-menu">
-                  <li>
+                  <li onClick={() => setClick(false)}>
                     <Link onClick={handleDropdownClick} to="/dietary-supplements" className="linkdrop" >Dietary Supplements</Link>
-                  </li>
-                  <li>
+                  </li >
+                  <li onClick={() => setClick(false)}>
                     <Link onClick={handleDropdownClick} to="/botanical-extracts" className="linkdrop" >Botanical Extracts</Link>
                   </li>
                   {/* <li>
@@ -38,7 +38,7 @@ const Header = () => {
                 </ul>
               )}
             </li>
-            <li>
+            <li onClick={() => setClick(false)}>
               <Link to="/about">About</Link>
             </li>
             {/* <li>
@@ -50,7 +50,7 @@ const Header = () => {
             <li>
               <Link to="/journal">Journal</Link>
             </li> */}
-            <li>
+            <li onClick={() => setClick(false)}>
               <Link to="/contact">Contact</Link>
             </li>
           </ul>

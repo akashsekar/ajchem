@@ -9,18 +9,18 @@ const AboutCard = () => {
     <>
       <section className='aboutHome'>
         <div className='container flexSB'>
-          <div className='left row'>
+          {/* <div className='left row'>
             <img src='./images/about.webp' alt='' />
-          </div>
+          </div> */}
           <div className='right row'>
-            <Heading subtitle='LEARN ANYTHING' title='Benefits About Online Learning Expertise' />
+            <Heading subtitle='AJ CHEM ENTERPRISES' title='About Us' />
             <div className='items'>
               {homeAbout.map((val) => {
                 return (
                   <div className='item flexSB'>
-                    <div className='img'>
+                    {/* <div className='img'>
                       <img src={val.cover} alt='' />
-                    </div>
+                    </div> */}
                     <div className='text'>
                       <h2>{val.title}</h2>
                       <p>{val.desc}</p>

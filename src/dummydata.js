@@ -2,20 +2,20 @@ export const homeAbout = [
   {
     id: 1,
     cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-    title: "Online Courses",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    title: "Research & Innovation",
+    desc: "AJ Chem Enterprises is committed to ongoing research and development in order to maintain a competitive edge. This approach has resulted in the development of a range of proprietary branded ingredients that have been extensively tested for safety and efficacy. The company has also collaborated with external partners to create specialized nutrition products.",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/diploma.png",
-    title: "Earn A Certificates",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    title: "Our Future",
+    desc: "AJ Chem Enterprises recognizes the current global demand for natural products and the need for innovative solutions. With a focus on developing new bio-actives and increasing their portfolio of clinically tested ingredients and formulations, the company aims to become an end-to-end solution provider for the nutrition, food, and cosmetics industry while obtaining the most stringent quality certifications to expand its global footprint.",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-    title: "Learn with Expert",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    title: "Diversification",
+    desc: "AJ Chem Enterprises has diversified its operations to include the development of formulations and finished products for the healthcare and personal care industries. The company also continues to expand its presence in the natural ingredients market, providing complete project lifecycle support to clients.",
   },
 ]
 export const awrapper = [

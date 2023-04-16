@@ -47,6 +47,11 @@
 }
 
 /*--------------faq-------------*/
+@media screen and (max-width: 1288px) {
+.price{
+  padding-top: 10rem;
+}
+}
 @media screen and (max-width: 988px) {
 .price{
   padding-top: 20rem;
