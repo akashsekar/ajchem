@@ -10,7 +10,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
   
-    emailjs.sendForm('service_93wkrxk', 'template_sweh592', form.current, 'k6md1mfXWaUjD5Mhk')
+    emailjs.sendForm('service_58lpbxa', 'template_7b331sc', form.current, 'ovi6evA2zqcWVjcG5')
       .then((result) => {
           console.log(result.text);
           form.current.reset(); // Reset the form fields
@@ -42,7 +42,7 @@ const Contact = () => {
               </div>
               <div className='box'>
                 <h4>EMAIL:</h4>
-                <p> info@yoursite.com</p>
+                <p>info@ajchementerprises.com</p>
               </div>
               <div className='box'>
                 <h4>PHONE:</h4>

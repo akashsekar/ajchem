@@ -75,7 +75,7 @@ const Footer = () => {
             ))}
           </div> */}
           <div className='box last'>
-            <h3>Have a Questions?</h3>
+            <h3>Reach Us At</h3>
             <ul>
               <li>
                 <i className='fa fa-map'></i>
@@ -87,7 +87,7 @@ const Footer = () => {
               </li>
               <li>
                 <i className='fa fa-paper-plane'></i>
-                info@yourdomain.com
+                info@ajchementerprises.com
               </li>
             </ul>
           </div>
