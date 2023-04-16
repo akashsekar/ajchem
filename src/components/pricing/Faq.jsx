@@ -38,9 +38,9 @@ const Faq = () => {
               {click === index ? (
                 <div className='text'>
                  <p><b>Product Name:</b> {val.name}</p>
-                 <p><b>Biomarker:</b> Aloin free</p>
+                 {/* <p><b>Biomarker:</b> Aloin free</p> */}
                  <p><b>Method:</b>Gravimetry</p>
-                 <p><b>Description:</b>{val.desc}</p>
+                 {/* <p><b>Description:</b>{val.desc}</p> */}
                 </div>
               ) : null}
             </div>
