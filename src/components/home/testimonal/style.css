@@ -1,0 +1,98 @@
+.testimonal .items {
+  padding: 30px;
+  transition: 0.5s;
+}
+.testimonal{
+  padding-bottom: 15rem;
+  
+}
+.testimonal #heading h1{
+  color: #1eb2a6;
+}
+.testimonal .img {
+  position: relative;
+}
+.testimonal img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.testimonal i {
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+  background-color: #1eb2a6;
+  color: #fff;
+}
+.testimonal .name {
+  margin: 25px;
+}
+.testimonal .name h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.testimonal .name span {
+  color: #1eb2a6;
+}
+.testimonal p {
+  margin-top: 20px;
+  color: grey;
+  transition: 0.5s;
+}
+.testimonal .items:hover {
+  background-color: #1eb2a6;
+  color: #fff;
+  cursor: pointer;
+}
+.testimonal .items:hover span,
+.testimonal .items:hover p {
+  color: #fff;
+}
+.testimonal .items:hover i {
+  background-color: #fff;
+  color: #1eb2a6;
+}
+
+.explore__more{
+  display: block;
+  
+}
+.explore__more small{
+  color: black;
+  border-bottom: 2px solid #1eb2a6;
+  
+}
+.testimonal .content{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+
+@media screen and (max-width: 1182px){
+    .testimonal{
+      padding-top: 12rem;
+    }
+}
+@media screen and (max-width: 942px){
+  .testimonal{
+    padding-top: 15rem;
+  }
+  .testimonal .content{
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 766px){
+  .testimonal{
+    padding-top: unset;
+  }
+}
+@media screen and (max-width: 642px){
+  .testimonal .content{
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonal{
+    padding-top: 10rem;
+    
+  }
+}
