@@ -616,8 +616,6 @@ export const product2 = [
   {
     name: "Yohimbine",
     pname: "Yohimbine HCL",
-    method1: "HCL",
-    methodtitle1: "Method:",
     title: "How It is hidden by default, until the collapse?",
     desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
   },

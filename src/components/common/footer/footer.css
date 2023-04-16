@@ -41,7 +41,7 @@ footer .container {
   grid-template-columns: 2fr 2fr 2fr 2fr;
   grid-gap: 30px;
 }
-footer .container .logo{
+.logo{
   width: 300px;
 }
 

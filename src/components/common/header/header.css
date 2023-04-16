@@ -67,7 +67,9 @@ header ul li a:hover {
 .linkdrop:hover{
   color: black;
 }
-
+.dropdown-link{
+cursor: pointer;
+}
 /*--------header------------*/
 @media screen and (max-width: 768px) {
   .start {

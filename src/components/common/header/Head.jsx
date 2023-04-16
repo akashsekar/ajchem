@@ -10,9 +10,9 @@ const Head = () => {
           <Link to="/">
             <img src={LOGO} alt="logo" />
     </Link>
+          </div>
             {/* <h1>ACADEMIA</h1> */}
             {/* <span>ONLINE EDUCATION & LEARNING</span> */}
-          </div>
 
           {/* <div className='social'>
             <i className='fab fa-facebook-f icon'></i>

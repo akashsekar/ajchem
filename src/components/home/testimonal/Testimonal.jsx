@@ -12,6 +12,7 @@ const Testimonal = () => {
           
           <div className='content grid2'>
             {testimonal.map((val) => (
+              <a href={val.url}>
               <div className='items shadow'>
                 <div className='box flex'>
                   <div className='img'>
@@ -31,6 +32,7 @@ const Testimonal = () => {
                 {/* <p>{val.desc}</p> */}
              
               </div>
+              </a>
             ))}
           </div>
           {/* <Heading subtitle='' title='Formulations & CMPL' />
