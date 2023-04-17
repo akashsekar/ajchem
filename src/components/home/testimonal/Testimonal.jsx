@@ -20,8 +20,8 @@ const Testimonal = () => {
                     {/* <i className='fa fa-quote-left icon'></i> */}
                   </div>
                   <div className='name'>
-                    <h2>{val.name}</h2>
-                    <span>{val.post}</span>
+                    <h2 style={{color:'black'}}>{val.name}</h2>
+                    {/* <span>{val.post}</span> */}
                     <a href={val.url} className="explore__more">
 
                   <small>Explore More</small>
